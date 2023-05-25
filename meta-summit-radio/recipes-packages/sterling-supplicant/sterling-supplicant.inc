@@ -34,6 +34,10 @@ RPROVIDES:${PN} += "wpa-supplicant"
 RREPLACES:${PN} += "wpa-supplicant"
 RCONFLICTS:${PN} += "wpa-supplicant"
 
+RPROVIDES:${PN} += "wpa-supplicant-dbg"
+RREPLACES:${PN} += "wpa-supplicant-dbg"
+RCONFLICTS:${PN} += "wpa-supplicant-dbg"
+
 RPROVIDES:${PN}-passphrase  += "wpa-supplicant-passphrase"
 RREPLACES:${PN}-passphrase  += "wpa-supplicant-passphrase"
 RCONFLICTS:${PN}-passphrase += "wpa-supplicant-passphrase"
