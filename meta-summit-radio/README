@@ -88,7 +88,7 @@ Integration notes:
         PREFERRED_RPROVIDER_wpa-supplicant = "sterling-supplicant-<st60|lwb>"
         PREFERRED_RPROVIDER_wpa-supplicant-cli = "sterling-supplicant-<st60|lwb>"
         PREFERRED_RPROVIDER_wpa-supplicant-passphrase = "sterling-supplicant-<st60|lwb>"
-		PREFERRED_PROVIDER_wpa-supplicant-dbg = "sterling-supplicant-lwb-dbg"
+        PREFERRED_PROVIDER_wpa-supplicant-dbg = "sterling-supplicant-lwb-dbg"
 
  - To use the Summit supplicant:
     - add the  "summit-supplicant" package to your image recipe
